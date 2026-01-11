@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="Pelican" />
+    <title>Mon Bazou - Hot on Steam</title>
+    <meta name="title" content="Hot on Steam – The Most Popular New Steam Games" />
+    <meta name="description"
+        content="Browse popular new Steam releases ranked by recent reviews and active players, and see what's happening on Steam beyond the headlines." />
+    <link rel="stylesheet" href="../static/css/custom.css" />
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="../static/icons/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/icons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="../static/icons/site.webmanifest" />
+</head>
+
+<body id="index" class="home">
+    <header id="banner" class="body">
+        <div class="banner-inner">
+            <h1 style="display: flex; align-items: center; gap: 0.7rem;">
+                <img src="../static/icons/favicon.png" alt="Site icon"
+                    style="height: 0.78em; width: auto; vertical-align: middle; position: relative; top: -0.07em;" />
+                <a href="../">Hot on Steam</a>
+            </h1>
+            <div class="banner-updated" data-last-updated=""2026-01-11 19:11 UTC"">Last updated: "2026-01-11 19:11 UTC"</div>
+        </div>
+    </header>
+
+    <script defer>
+        (function () {
+            const el = document.querySelector('.banner-updated[data-last-updated]');
+            if (!el) {
+                return;
+            }
+            const timestamp = el.getAttribute('data-last-updated');
+            if (!timestamp) {
+                return;
+            }
+            const updatedAt = Date.parse(timestamp);
+            if (Number.isNaN(updatedAt)) {
+                return;
+            }
+            const minute = 60000;
+            const hour = 60 * minute;
+            const now = Date.now();
+            const delta = Math.max(0, now - updatedAt);
+            let label;
+            if (delta < minute) {
+                label = 'Updated just now.';
+            } else if (delta < hour) {
+                const minutes = Math.round(delta / minute);
+                label = `Updated ${minutes} minute${minutes === 1 ? '' : 's'} ago.`;
+            } else if (delta < 24 * hour) {
+                const hours = Math.round(delta / hour);
+                label = `Updated ${hours} hour${hours === 1 ? '' : 's'} ago.`;
+            } else {
+                const days = Math.round(delta / (24 * hour));
+                label = `Updated ${days} day${days === 1 ? '' : 's'} ago.`;
+            }
+            el.textContent = label;
+        })();
+    </script>
+
+<section id="content" class="body">
+    <article class="game-detail">
+        <div class="detail-back-link"><a href="../">&#8592; Back to dashboard</a></div>
+
+        <div class="detail-hero">
+            <div class="detail-hero-main">
+                <h1>Mon Bazou</h1>
+                <div class="detail-meta">
+                    Santa Goat
+                    <span class="publisher">&bull; Santa Goat</span>
+                    <span class="release">&bull; Released 2025-12-18</span>
+                </div>
+            </div>
+            <div class="detail-hero-actions">
+                <a class="detail-cta" href="https://store.steampowered.com/app/1520370" target="_blank" rel="noopener">View on Steam</a>
+                <a class="detail-cta secondary" href="https://isthereanydeal.com/steam/app/1520370/" target="_blank"
+                    rel="noopener">Compare prices</a>
+            </div>
+        </div>
+
+        <div class="detail-card detail-description">
+            <h2>Official description</h2>
+            <div class="detail-description-body">
+                <p class="game-detail-summary">Build your crappy vehicle into a race car, install the parts yourself. Make money by cutting wood, racing at night or delivering pizza. Maybe you want to manage a sugar shack or build yourself a big garage?</p>
+            </div>
+        </div>
+
+        <div class="detail-stats-columns">
+            <!-- Column 1: Player Activity -->
+            <div class="detail-column-card">
+                <h3 class="column-title">Player Activity</h3>
+
+                <div class="column-content">
+                    <div class="column-stat-group">
+                        <div class="stat-value-large">1,186</div>
+                        <div class="stat-label">Avg. Players</div>
+                    </div>
+
+
+                    <div class="column-stat-group">
+                        <div
+                            class="stat-value-medium negative">
+-18%
+                        </div>
+                        <div class="stat-label">Trend (7d)</div>
+                    </div>
+                </div>
+
+                <div class="column-chart-wrapper">
+                    <div class="chart-label">30-Day Trend</div>
+                    <div class="chart-container">
+                        <svg viewBox="0 0 300 60" preserveAspectRatio="none" class="player-chart">
+                            <path d="M 50.00 17.40 C 53.00 17.40, 57.00 18.02, 60.00 18.02 C 63.00 18.02, 67.00 8.44, 70.00 8.44 C 73.00 8.44, 77.00 0.00, 80.00 0.00 C 83.00 0.00, 87.00 8.78, 90.00 8.78 C 93.00 8.78, 97.00 12.82, 100.00 12.82 C 103.00 12.82, 107.00 15.41, 110.00 15.41 C 113.00 15.41, 117.00 22.05, 120.00 22.05 C 123.00 22.05, 127.00 14.28, 130.00 14.28 C 133.00 14.28, 137.00 9.22, 140.00 9.22 C 143.00 9.22, 147.00 5.52, 150.00 5.52 C 153.00 5.52, 157.00 12.48, 160.00 12.48 C 163.00 12.48, 167.00 13.75, 170.00 13.75 C 173.00 13.75, 177.00 18.52, 180.00 18.52 C 183.00 18.52, 187.00 14.42, 190.00 14.42 C 193.00 14.42, 197.00 7.39, 200.00 7.39 C 203.00 7.39, 207.00 9.97, 210.00 9.97 C 213.00 9.97, 217.00 5.20, 220.00 5.20 C 223.00 5.20, 227.00 21.10, 230.00 21.10 C 233.00 21.10, 237.00 20.69, 240.00 20.69 C 243.00 20.69, 247.00 28.21, 250.00 28.21 C 253.00 28.21, 257.00 26.81, 260.00 26.81 C 263.00 26.81, 267.00 25.67, 270.00 25.67 C 273.00 25.67, 277.00 21.18, 280.00 21.18 C 283.00 21.18, 287.00 15.20, 290.00 15.20" fill="none" stroke="#68d391" stroke-width="2"
+                                vector-effect="non-scaling-stroke" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 2: Review Stats -->
+            <div class="detail-column-card">
+                <h3 class="column-title">Reviews</h3>
+
+
+                <div class="column-content">
+                    <div class="column-stat-group">
+                        <div class="stat-value-large text-purple">97%</div>
+                        <div class="stat-label">Positive</div>
+                    </div>
+
+                    <div class="column-stat-group">
+                        <div class="stat-value-medium">
+                            18,790
+                        </div>
+                        <div class="stat-label">Total Reviews</div>
+                    </div>
+                </div>
+
+                <div class="column-chart-wrapper">
+                    <div class="chart-label">30-Day Trend</div>
+                    <div class="chart-container">
+                        <svg viewBox="0 0 300 60" preserveAspectRatio="none" class="player-chart">
+                            <path d="M 60.00 1.80 C 63.00 1.80, 67.00 1.80, 70.00 1.80 C 73.00 1.80, 77.00 1.80, 80.00 1.80 C 83.00 1.80, 87.00 1.80, 90.00 1.80 C 93.00 1.80, 97.00 1.80, 100.00 1.80 C 103.00 1.80, 107.00 1.80, 110.00 1.80 C 113.00 1.80, 117.00 1.80, 120.00 1.80 C 123.00 1.80, 127.00 1.80, 130.00 1.80 C 133.00 1.80, 137.00 1.80, 140.00 1.80 C 143.00 1.80, 147.00 1.80, 150.00 1.80 C 153.00 1.80, 157.00 1.80, 160.00 1.80 C 163.00 1.80, 167.00 1.80, 170.00 1.80 C 173.00 1.80, 177.00 1.80, 180.00 1.80 C 183.00 1.80, 187.00 1.80, 190.00 1.80 C 193.00 1.80, 197.00 1.80, 200.00 1.80 C 203.00 1.80, 207.00 1.80, 210.00 1.80 C 213.00 1.80, 217.00 1.80, 220.00 1.80 C 223.00 1.80, 227.00 1.80, 230.00 1.80 C 233.00 1.80, 237.00 1.80, 240.00 1.80 C 243.00 1.80, 247.00 1.80, 250.00 1.80 C 253.00 1.80, 257.00 1.80, 260.00 1.80 C 263.00 1.80, 267.00 1.80, 270.00 1.80 C 273.00 1.80, 277.00 1.80, 280.00 1.80 C 283.00 1.80, 287.00 1.80, 290.00 1.80" fill="none" stroke="#9f7aea" stroke-width="2"
+                                vector-effect="non-scaling-stroke" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 3: Hotness Stats -->
+            <div class="detail-column-card">
+                <h3 class="column-title">Hotness</h3>
+
+                <div class="column-content">
+
+                    <div class="column-stat-group">
+                        <div class="stat-value-large text-orange">Top 78.8%</div>
+                        <div class="stat-label">Current Rank</div>
+                    </div>
+
+                    <div class="column-stat-group">
+                        <div class="stat-value-medium">Top 1.8%</div>
+                        <div class="stat-label">30-Day Peak</div>
+                    </div>
+                </div>
+
+                <div class="column-stat-group mb-3">
+                    <div class="stat-value-small">top 10%</div>
+                    <div class="stat-label">vs. Similar Age Games</div>
+                </div>
+
+                <div class="column-chart-wrapper expanded">
+                    <div class="chart-label">30-Day Rank History</div>
+                    <div class="chart-container">
+                        <svg viewBox="0 0 300 60" preserveAspectRatio="none" class="player-chart">
+                            <path d="M 50.00 2.50 C 53.00 2.50, 57.00 2.65, 60.00 2.65 C 63.00 2.65, 67.00 1.69, 70.00 1.69 C 73.00 1.69, 77.00 1.74, 80.00 1.74 C 83.00 1.74, 87.00 2.03, 90.00 2.03 C 93.00 2.03, 97.00 3.05, 100.00 3.05 C 103.00 3.05, 107.00 1.07, 110.00 1.07 C 113.00 1.07, 117.00 1.97, 120.00 1.97 C 123.00 1.97, 127.00 3.00, 130.00 3.00 C 133.00 3.00, 137.00 0.98, 140.00 0.98 C 143.00 0.98, 147.00 0.00, 150.00 0.00 C 153.00 0.00, 157.00 1.20, 160.00 1.20 C 163.00 1.20, 167.00 2.45, 170.00 2.45 C 173.00 2.45, 177.00 2.55, 180.00 2.55 C 183.00 2.55, 187.00 2.67, 190.00 2.67 C 193.00 2.67, 197.00 4.00, 200.00 4.00 C 203.00 4.00, 207.00 5.71, 210.00 5.71 C 213.00 5.71, 217.00 7.27, 220.00 7.27 C 223.00 7.27, 227.00 12.41, 230.00 12.41 C 233.00 12.41, 237.00 15.56, 240.00 15.56 C 243.00 15.56, 247.00 16.55, 250.00 16.55 C 253.00 16.55, 257.00 27.27, 260.00 27.27 C 263.00 27.27, 267.00 30.00, 270.00 30.00 C 273.00 30.00, 277.00 35.00, 280.00 35.00 C 283.00 35.00, 287.00 45.45, 290.00 45.45" fill="none" stroke="#f6ad55" stroke-width="2"
+                                vector-effect="non-scaling-stroke" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</section>
+
+</body>
+
+</html>
