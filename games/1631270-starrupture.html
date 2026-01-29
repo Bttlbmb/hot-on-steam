@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="Pelican" />
+    <title>StarRupture - Hot on Steam</title>
+    <meta name="title" content="Hot on Steam – The Most Popular New Steam Games" />
+    <meta name="description"
+        content="Browse popular new Steam releases ranked by recent reviews and active players, and see what's happening on Steam beyond the headlines." />
+    <link rel="stylesheet" href="../static/css/custom.css" />
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="../static/icons/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/icons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="../static/icons/site.webmanifest" />
+</head>
+
+<body id="index" class="home">
+    <header id="banner" class="body">
+        <div class="banner-inner">
+            <h1 style="display: flex; align-items: center; gap: 0.7rem;">
+                <img src="../static/icons/favicon.png" alt="Site icon"
+                    style="height: 0.78em; width: auto; vertical-align: middle; position: relative; top: -0.07em;" />
+                <a href="../">Hot on Steam</a>
+            </h1>
+            <div class="banner-updated" data-last-updated=""2026-01-29 09:07 UTC"">Last updated: "2026-01-29 09:07 UTC"</div>
+        </div>
+    </header>
+
+    <script defer>
+        (function () {
+            const el = document.querySelector('.banner-updated[data-last-updated]');
+            if (!el) {
+                return;
+            }
+            const timestamp = el.getAttribute('data-last-updated');
+            if (!timestamp) {
+                return;
+            }
+            const updatedAt = Date.parse(timestamp);
+            if (Number.isNaN(updatedAt)) {
+                return;
+            }
+            const minute = 60000;
+            const hour = 60 * minute;
+            const now = Date.now();
+            const delta = Math.max(0, now - updatedAt);
+            let label;
+            if (delta < minute) {
+                label = 'Updated just now.';
+            } else if (delta < hour) {
+                const minutes = Math.round(delta / minute);
+                label = `Updated ${minutes} minute${minutes === 1 ? '' : 's'} ago.`;
+            } else if (delta < 24 * hour) {
+                const hours = Math.round(delta / hour);
+                label = `Updated ${hours} hour${hours === 1 ? '' : 's'} ago.`;
+            } else {
+                const days = Math.round(delta / (24 * hour));
+                label = `Updated ${days} day${days === 1 ? '' : 's'} ago.`;
+            }
+            el.textContent = label;
+        })();
+    </script>
+
+<section id="content" class="body">
+    <article class="game-detail">
+        <div class="detail-back-link"><a href="../">&#8592; Back to dashboard</a></div>
+
+        <div class="detail-hero">
+            <div class="detail-hero-main">
+                <h1>StarRupture</h1>
+                <div class="detail-meta">
+                    Creepy Jar
+                    <span class="publisher">&bull; Creepy Jar</span>
+                    <span class="release">&bull; Released 2026-01-06</span>
+                </div>
+            </div>
+            <div class="detail-hero-actions">
+                <a class="detail-cta" href="https://store.steampowered.com/app/1631270" target="_blank" rel="noopener">View on Steam</a>
+                <a class="detail-cta secondary" href="https://isthereanydeal.com/steam/app/1631270/" target="_blank"
+                    rel="noopener">Compare prices</a>
+            </div>
+        </div>
+
+        <div class="detail-card detail-description">
+            <h2>Official description</h2>
+            <div class="detail-description-body">
+                <p class="game-detail-summary">StarRupture is a first-person open world base-building game with advanced combat and tons of exploration. Play alone or in a group on this sublime and ever-changing planet, extract and manage resources, create your complex industrial system and fight off hordes of alien monsters.</p>
+            </div>
+        </div>
+
+        <div class="detail-stats-columns">
+            <!-- Column 1: Player Activity -->
+            <div class="detail-column-card">
+                <h3 class="column-title">Player Activity</h3>
+
+                <div class="column-content">
+                    <div class="column-stat-group">
+                        <div class="stat-value-large">9,774</div>
+                        <div class="stat-label">Avg. Players</div>
+                    </div>
+
+
+                    <div class="column-stat-group">
+                        <div
+                            class="stat-value-medium negative">
+-38%
+                        </div>
+                        <div class="stat-label">Trend (7d)</div>
+                    </div>
+                </div>
+
+                <div class="column-chart-wrapper">
+                    <div class="chart-label">30-Day Trend</div>
+                    <div class="chart-container">
+                        <svg viewBox="0 0 300 60" preserveAspectRatio="none" class="player-chart">
+                            <path d="M 60.00 23.54 C 63.00 23.54, 67.00 24.52, 70.00 24.52 C 73.00 24.52, 77.00 25.06, 80.00 25.06 C 83.00 25.06, 87.00 21.38, 90.00 21.38 C 93.00 21.38, 97.00 5.54, 100.00 5.54 C 103.00 5.54, 107.00 0.00, 110.00 0.00 C 113.00 0.00, 117.00 24.64, 120.00 24.64 C 123.00 24.64, 127.00 30.97, 130.00 30.97 C 133.00 30.97, 137.00 33.28, 140.00 33.28 C 143.00 33.28, 147.00 35.75, 150.00 35.75 C 153.00 35.75, 157.00 33.79, 160.00 33.79 C 163.00 33.79, 167.00 22.11, 170.00 22.11 C 173.00 22.11, 177.00 19.20, 180.00 19.20 C 183.00 19.20, 187.00 36.02, 190.00 36.02 C 193.00 36.02, 197.00 38.20, 200.00 38.20 C 203.00 38.20, 207.00 41.83, 210.00 41.83 C 213.00 41.83, 217.00 43.58, 220.00 43.58 C 223.00 43.58, 227.00 41.43, 230.00 41.43 C 233.00 41.43, 237.00 34.18, 240.00 34.18 C 243.00 34.18, 247.00 34.52, 250.00 34.52 C 253.00 34.52, 257.00 44.85, 260.00 44.85 C 263.00 44.85, 267.00 45.53, 270.00 45.53 C 273.00 45.53, 277.00 48.42, 280.00 48.42 C 283.00 48.42, 287.00 53.12, 290.00 53.12" fill="none" stroke="#68d391" stroke-width="2"
+                                vector-effect="non-scaling-stroke" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 2: Review Stats -->
+            <div class="detail-column-card">
+                <h3 class="column-title">Reviews</h3>
+
+
+                <div class="column-content">
+                    <div class="column-stat-group">
+                        <div class="stat-value-large text-purple">82%</div>
+                        <div class="stat-label">Positive</div>
+                    </div>
+
+                    <div class="column-stat-group">
+                        <div class="stat-value-medium">
+                            7,502
+                        </div>
+                        <div class="stat-label">Total Reviews</div>
+                    </div>
+                </div>
+
+                <div class="column-chart-wrapper">
+                    <div class="chart-label">30-Day Trend</div>
+                    <div class="chart-container">
+                        <svg viewBox="0 0 300 60" preserveAspectRatio="none" class="player-chart">
+                            <path d="M 80.00 15.60 C 83.00 15.60, 87.00 9.00, 90.00 9.00 C 93.00 9.00, 97.00 10.20, 100.00 10.20 C 103.00 10.20, 107.00 10.80, 110.00 10.80 C 113.00 10.80, 117.00 10.80, 120.00 10.80 C 123.00 10.80, 127.00 11.40, 130.00 11.40 C 133.00 11.40, 137.00 11.40, 140.00 11.40 C 143.00 11.40, 147.00 11.40, 150.00 11.40 C 153.00 11.40, 157.00 11.40, 160.00 11.40 C 163.00 11.40, 167.00 11.40, 170.00 11.40 C 173.00 11.40, 177.00 10.80, 180.00 10.80 C 183.00 10.80, 187.00 10.80, 190.00 10.80 C 193.00 10.80, 197.00 10.80, 200.00 10.80 C 203.00 10.80, 207.00 10.80, 210.00 10.80 C 213.00 10.80, 217.00 10.80, 220.00 10.80 C 223.00 10.80, 227.00 11.40, 230.00 11.40 C 233.00 11.40, 237.00 11.40, 240.00 11.40 C 243.00 11.40, 247.00 10.80, 250.00 10.80 C 253.00 10.80, 257.00 11.40, 260.00 11.40 C 263.00 11.40, 267.00 11.40, 270.00 11.40 C 273.00 11.40, 277.00 10.80, 280.00 10.80 C 283.00 10.80, 287.00 10.80, 290.00 10.80" fill="none" stroke="#9f7aea" stroke-width="2"
+                                vector-effect="non-scaling-stroke" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 3: Price Info -->
+            <div class="detail-column-card">
+                <h3 class="column-title">Pricing</h3>
+
+                <div class="column-content">
+
+                    <div class="column-stat-group">
+                        <div class="stat-value-large text-blue">$19.99</div>
+                        <div class="stat-label">Steam Price</div>
+                    </div>
+
+                    <div class="column-stat-group">
+                        <div class="stat-value-medium text-green">$12.92</div>
+                        <div class="stat-label">Lowest (PlayerLand)</div>
+                    </div>
+                </div>
+
+                <div class="column-chart-wrapper">
+                    <div class="chart-label">90-Day Price History</div>
+
+                    <div class="chart-container price-chart-container">
+                        <svg viewBox="0 0 300 60" preserveAspectRatio="none" class="price-chart">
+                            <path d="M 220.00 51.73 C 221.00 51.73, 222.33 51.73, 223.33 51.73 C 224.33 51.73, 225.67 51.73, 226.67 51.73 C 227.67 51.73, 229.00 51.73, 230.00 51.73 C 231.00 51.73, 232.33 51.73, 233.33 51.73 C 234.33 51.73, 235.67 51.73, 236.67 51.73 C 237.67 51.73, 239.00 51.73, 240.00 51.73 C 241.00 51.73, 242.33 51.73, 243.33 51.73 C 244.33 51.73, 245.67 51.73, 246.67 51.73 C 247.67 51.73, 249.00 51.73, 250.00 51.73 C 251.00 51.73, 252.33 51.73, 253.33 51.73 C 254.33 51.73, 255.67 51.73, 256.67 51.73 C 257.67 51.73, 259.00 51.73, 260.00 51.73 C 261.00 51.73, 262.33 51.73, 263.33 51.73 C 264.33 51.73, 265.67 51.73, 266.67 51.73 C 267.67 51.73, 269.00 10.34, 270.00 10.34 C 271.00 10.34, 272.33 10.34, 273.33 10.34 C 274.33 10.34, 275.67 10.34, 276.67 10.34 C 277.67 10.34, 279.00 10.34, 280.00 10.34 C 281.00 10.34, 282.33 10.34, 283.33 10.34 C 284.33 10.34, 285.67 10.34, 286.67 10.34 C 287.67 10.34, 289.00 10.34, 290.00 10.34 C 291.00 10.34, 292.33 10.34, 293.33 10.34 C 294.33 10.34, 295.67 10.34, 296.67 10.34" fill="none" stroke="#4a9eff" stroke-width="2"
+                                vector-effect="non-scaling-stroke" class="price-line-steam" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</section>
+
+</body>
+
+</html>
