@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="Pelican" />
+    <title>YAPYAP - Hot on Steam</title>
+    <meta name="title" content="Hot on Steam – The Most Popular New Steam Games" />
+    <meta name="description"
+        content="Browse popular new Steam releases ranked by recent reviews and active players, and see what's happening on Steam beyond the headlines." />
+    <link rel="stylesheet" href="../static/css/custom.css" />
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="../static/icons/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/icons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="../static/icons/site.webmanifest" />
+</head>
+
+<body id="index" class="home">
+    <header id="banner" class="body">
+        <div class="banner-inner">
+            <h1 style="display: flex; align-items: center; gap: 0.7rem;">
+                <img src="../static/icons/favicon.png" alt="Site icon"
+                    style="height: 0.78em; width: auto; vertical-align: middle; position: relative; top: -0.07em;" />
+                <a href="../">Hot on Steam</a>
+            </h1>
+            <div class="banner-updated" data-last-updated=""2026-02-22 17:14 UTC"">Last updated: "2026-02-22 17:14 UTC"</div>
+        </div>
+    </header>
+
+    <script defer>
+        (function () {
+            const el = document.querySelector('.banner-updated[data-last-updated]');
+            if (!el) {
+                return;
+            }
+            const timestamp = el.getAttribute('data-last-updated');
+            if (!timestamp) {
+                return;
+            }
+            const updatedAt = Date.parse(timestamp);
+            if (Number.isNaN(updatedAt)) {
+                return;
+            }
+            const minute = 60000;
+            const hour = 60 * minute;
+            const now = Date.now();
+            const delta = Math.max(0, now - updatedAt);
+            let label;
+            if (delta < minute) {
+                label = 'Updated just now.';
+            } else if (delta < hour) {
+                const minutes = Math.round(delta / minute);
+                label = `Updated ${minutes} minute${minutes === 1 ? '' : 's'} ago.`;
+            } else if (delta < 24 * hour) {
+                const hours = Math.round(delta / hour);
+                label = `Updated ${hours} hour${hours === 1 ? '' : 's'} ago.`;
+            } else {
+                const days = Math.round(delta / (24 * hour));
+                label = `Updated ${days} day${days === 1 ? '' : 's'} ago.`;
+            }
+            el.textContent = label;
+        })();
+    </script>
+
+<section id="content" class="body">
+    <article class="game-detail">
+        <div class="detail-back-link"><a href="../">&#8592; Back to dashboard</a></div>
+
+        <div class="detail-hero">
+            <div class="detail-hero-main">
+                <h1>YAPYAP</h1>
+                <div class="detail-meta">
+                    Maison Bap
+                    <span class="publisher">&bull; Maison Bap</span>
+                    <span class="release">&bull; Released 2026-02-03</span>
+                </div>
+            </div>
+            <div class="detail-hero-actions">
+                <a class="detail-cta" href="https://store.steampowered.com/app/3834090" target="_blank" rel="noopener">View on Steam</a>
+                <a class="detail-cta secondary" href="https://isthereanydeal.com/steam/app/3834090/" target="_blank"
+                    rel="noopener">Compare prices</a>
+            </div>
+        </div>
+
+        <div class="detail-card detail-description">
+            <h2>Official description</h2>
+            <div class="detail-description-body">
+                <p class="game-detail-summary">A magic-themed co-op horror game where you and up to 5 friends are minions summoned by a wizard to break into their rival&#x27;s towers to cause mayhem. Try to fufill your vandalism target with an assortment of spells while avoiding magical beasts and monsters that protect the tower.</p>
+            </div>
+        </div>
+
+        <div class="detail-stats-columns">
+            <!-- Column 1: Player Activity -->
+            <div class="detail-column-card">
+                <h3 class="column-title">Player Activity</h3>
+
+                <div class="column-content">
+                    <div class="column-stat-group">
+                        <div class="stat-value-large">3,708</div>
+                        <div class="stat-label">Avg. Players</div>
+                    </div>
+
+
+                    <div class="column-stat-group">
+                        <div
+                            class="stat-value-medium negative">
+-40%
+                        </div>
+                        <div class="stat-label">Trend (7d)</div>
+                    </div>
+                </div>
+
+                <div class="column-chart-wrapper">
+                    <div class="chart-label">30-Day Trend</div>
+                    <div class="chart-container">
+                        <svg viewBox="0 0 300 60" preserveAspectRatio="none" class="player-chart">
+                            <path d="M 100.00 27.35 C 103.00 27.35, 107.00 21.43, 110.00 21.43 C 113.00 21.43, 117.00 23.40, 120.00 23.40 C 123.00 23.40, 127.00 20.41, 130.00 20.41 C 133.00 20.41, 137.00 0.00, 140.00 0.00 C 143.00 0.00, 147.00 0.24, 150.00 0.24 C 153.00 0.24, 157.00 17.59, 160.00 17.59 C 163.00 17.59, 167.00 25.47, 170.00 25.47 C 173.00 25.47, 177.00 25.33, 180.00 25.33 C 183.00 25.33, 187.00 32.11, 190.00 32.11 C 193.00 32.11, 197.00 28.60, 200.00 28.60 C 203.00 28.60, 207.00 22.23, 210.00 22.23 C 213.00 22.23, 217.00 15.54, 220.00 15.54 C 223.00 15.54, 227.00 34.47, 230.00 34.47 C 233.00 34.47, 237.00 41.20, 240.00 41.20 C 243.00 41.20, 247.00 38.65, 250.00 38.65 C 253.00 38.65, 257.00 41.89, 260.00 41.89 C 263.00 41.89, 267.00 42.70, 270.00 42.70 C 273.00 42.70, 277.00 39.07, 280.00 39.07 C 283.00 39.07, 287.00 36.73, 290.00 36.73" fill="none" stroke="#68d391" stroke-width="2"
+                                vector-effect="non-scaling-stroke" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 2: Review Stats -->
+            <div class="detail-column-card">
+                <h3 class="column-title">Reviews</h3>
+
+
+                <div class="column-content">
+                    <div class="column-stat-group">
+                        <div class="stat-value-large text-purple">83%</div>
+                        <div class="stat-label">Positive</div>
+                    </div>
+
+                    <div class="column-stat-group">
+                        <div class="stat-value-medium">
+                            4,691
+                        </div>
+                        <div class="stat-label">Total Reviews</div>
+                    </div>
+                </div>
+
+                <div class="column-chart-wrapper">
+                    <div class="chart-label">30-Day Trend</div>
+                    <div class="chart-container">
+                        <svg viewBox="0 0 300 60" preserveAspectRatio="none" class="player-chart">
+                            <path d="M 120.00 3.60 C 123.00 3.60, 127.00 9.60, 130.00 9.60 C 133.00 9.60, 137.00 10.20, 140.00 10.20 C 143.00 10.20, 147.00 10.80, 150.00 10.80 C 153.00 10.80, 157.00 10.80, 160.00 10.80 C 163.00 10.80, 167.00 10.80, 170.00 10.80 C 173.00 10.80, 177.00 10.80, 180.00 10.80 C 183.00 10.80, 187.00 10.80, 190.00 10.80 C 193.00 10.80, 197.00 10.80, 200.00 10.80 C 203.00 10.80, 207.00 10.20, 210.00 10.20 C 213.00 10.20, 217.00 10.20, 220.00 10.20 C 223.00 10.20, 227.00 10.20, 230.00 10.20 C 233.00 10.20, 237.00 10.20, 240.00 10.20 C 243.00 10.20, 247.00 10.20, 250.00 10.20 C 253.00 10.20, 257.00 10.20, 260.00 10.20 C 263.00 10.20, 267.00 10.20, 270.00 10.20 C 273.00 10.20, 277.00 10.20, 280.00 10.20 C 283.00 10.20, 287.00 10.20, 290.00 10.20" fill="none" stroke="#9f7aea" stroke-width="2"
+                                vector-effect="non-scaling-stroke" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 3: Price Info -->
+            <div class="detail-column-card">
+                <h3 class="column-title">Pricing</h3>
+
+                <div class="column-content">
+
+                    <div class="column-stat-group">
+                        <div class="stat-value-large text-blue">$9.99</div>
+                        <div class="stat-label">Steam Price</div>
+                    </div>
+
+                    <div class="column-stat-group">
+                        <div class="stat-value-medium text-green">$0.00</div>
+                        <div class="stat-label">Lowest ("")</div>
+                    </div>
+                </div>
+
+                <div class="column-chart-wrapper">
+                    <div class="chart-label">90-Day Price History</div>
+
+                    <div class="chart-container price-chart-container">
+                        <svg viewBox="0 0 300 60" preserveAspectRatio="none" class="price-chart">
+                            <path d="M 233.33 51.73 C 234.33 51.73, 235.67 51.73, 236.67 51.73 C 237.67 51.73, 239.00 51.73, 240.00 51.73 C 241.00 51.73, 242.33 51.73, 243.33 51.73 C 244.33 51.73, 245.67 51.73, 246.67 51.73 C 247.67 51.73, 249.00 51.73, 250.00 51.73 C 251.00 51.73, 252.33 51.73, 253.33 51.73 C 254.33 51.73, 255.67 51.73, 256.67 51.73 C 257.67 51.73, 259.00 51.73, 260.00 51.73 C 261.00 51.73, 262.33 51.73, 263.33 51.73 C 264.33 51.73, 265.67 51.73, 266.67 51.73 C 267.67 51.73, 269.00 51.73, 270.00 51.73 C 271.00 51.73, 272.33 51.73, 273.33 51.73 C 274.33 51.73, 275.67 51.73, 276.67 51.73 C 277.67 51.73, 279.00 31.03, 280.00 31.03 C 281.00 31.03, 282.33 10.34, 283.33 10.34 C 284.33 10.34, 285.67 10.34, 286.67 10.34 C 287.67 10.34, 289.00 10.34, 290.00 10.34 C 291.00 10.34, 292.33 10.34, 293.33 10.34 C 294.33 10.34, 295.67 10.34, 296.67 10.34" fill="none" stroke="#4a9eff" stroke-width="2"
+                                vector-effect="non-scaling-stroke" class="price-line-steam" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</section>
+
+</body>
+
+</html>

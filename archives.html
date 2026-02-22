@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="Pelican" />
+    <title>Hot on Steam - Archives</title>
+    <meta name="title" content="Hot on Steam – The Most Popular New Steam Games" />
+    <meta name="description"
+        content="Browse popular new Steam releases ranked by recent reviews and active players, and see what's happening on Steam beyond the headlines." />
+    <link rel="stylesheet" href="./static/css/custom.css" />
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="./static/icons/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./static/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./static/icons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./static/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="./static/icons/site.webmanifest" />
+</head>
+
+<body id="index" class="home">
+    <header id="banner" class="body">
+        <div class="banner-inner">
+            <h1 style="display: flex; align-items: center; gap: 0.7rem;">
+                <img src="./static/icons/favicon.png" alt="Site icon"
+                    style="height: 0.78em; width: auto; vertical-align: middle; position: relative; top: -0.07em;" />
+                <a href="./">Hot on Steam</a>
+            </h1>
+            <div class="banner-updated" data-last-updated=""2026-02-22 17:14 UTC"">Last updated: "2026-02-22 17:14 UTC"</div>
+        </div>
+    </header>
+
+    <script defer>
+        (function () {
+            const el = document.querySelector('.banner-updated[data-last-updated]');
+            if (!el) {
+                return;
+            }
+            const timestamp = el.getAttribute('data-last-updated');
+            if (!timestamp) {
+                return;
+            }
+            const updatedAt = Date.parse(timestamp);
+            if (Number.isNaN(updatedAt)) {
+                return;
+            }
+            const minute = 60000;
+            const hour = 60 * minute;
+            const now = Date.now();
+            const delta = Math.max(0, now - updatedAt);
+            let label;
+            if (delta < minute) {
+                label = 'Updated just now.';
+            } else if (delta < hour) {
+                const minutes = Math.round(delta / minute);
+                label = `Updated ${minutes} minute${minutes === 1 ? '' : 's'} ago.`;
+            } else if (delta < 24 * hour) {
+                const hours = Math.round(delta / hour);
+                label = `Updated ${hours} hour${hours === 1 ? '' : 's'} ago.`;
+            } else {
+                const days = Math.round(delta / (24 * hour));
+                label = `Updated ${days} day${days === 1 ? '' : 's'} ago.`;
+            }
+            el.textContent = label;
+        })();
+    </script>
+
+    <h2>Archives for Hot on Steam</h2>
+
+    <dl>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/1588550-cairn.html">Cairn</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/1699480-kletka.html">KLETKA</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/1766060-humanitz.html">HumanitZ</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/1991040-school-days.html">School Days</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/2069250-high-on-life-2.html">High On Life 2</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/2129530-reanimal.html">REANIMAL</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/2294660-the-quinfall.html">The Quinfall</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/2362060-code-vein-ii.html">CODE VEIN II</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/2397300-half-sword.html">Half Sword</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/2432860-menace.html">MENACE</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/2499860-dragon-quest-vii-reimagined.html">DRAGON QUEST VII Reimagined</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/2536520-diablo-ii-resurrected-infernal-edition.html">Diablo II: Resurrected – Infernal Edition</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/2643390-star-trek-voyager-across-the-unknown.html">Star Trek: Voyager - Across the Unknown</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/2652600-sealchain-call-of-blood.html">SealChain: Call of Blood</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/2701440-paranormasight-the-mermaid-s-curse.html">PARANORMASIGHT: The Mermaid's Curse</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/2966320-starsand-island.html">Starsand Island</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/3054690-norse-oath-of-blood.html">NORSE: Oath of Blood</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/342940-project-gorgon.html">Project: Gorgon</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/3525970-horripilant.html">Horripilant</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/3643170-roadside-research.html">Roadside Research</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/3681010-nioh-3.html">Nioh 3</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/3834090-yapyap.html">YAPYAP</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/3937550-yakuza-kiwami-3-dark-ties.html">Yakuza Kiwami 3 & Dark Ties</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/3985950-r-i-p-reincarnation-insurance-program.html">R.I.P. - Reincarnation Insurance Program</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/4069520-super-battle-golf.html">Super Battle Golf</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./games/686060-mewgenics.html">Mewgenics</a></dd>
+            <dt>Sun 22 February 2026</dt>
+            <dd><a href="./hot-on-steam.html">Hot on Steam</a></dd>
+    </dl>
+
+</body>
+
+</html>
