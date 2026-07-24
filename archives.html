@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="Pelican" />
+    <title>Hot on Steam - Archives</title>
+    <meta name="title" content="Hot on Steam – The Most Popular New Steam Games" />
+    <meta name="description"
+        content="Browse popular new Steam releases ranked by recent reviews and active players, and see what's happening on Steam beyond the headlines." />
+    <link rel="stylesheet" href="./static/css/custom.css" />
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="./static/icons/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./static/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./static/icons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./static/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="./static/icons/site.webmanifest" />
+</head>
+
+<body id="index" class="home">
+    <header id="banner" class="body">
+        <div class="banner-inner">
+            <h1 style="display: flex; align-items: center; gap: 0.7rem;">
+                <img src="./static/icons/favicon.png" alt="Site icon"
+                    style="height: 0.78em; width: auto; vertical-align: middle; position: relative; top: -0.07em;" />
+                <a href="./">Hot on Steam</a>
+            </h1>
+            <div class="banner-updated" data-last-updated=""2026-07-24 19:19 UTC"">Last updated: "2026-07-24 19:19 UTC"</div>
+        </div>
+    </header>
+
+    <script defer>
+        (function () {
+            const el = document.querySelector('.banner-updated[data-last-updated]');
+            if (!el) {
+                return;
+            }
+            const timestamp = el.getAttribute('data-last-updated');
+            if (!timestamp) {
+                return;
+            }
+            const updatedAt = Date.parse(timestamp);
+            if (Number.isNaN(updatedAt)) {
+                return;
+            }
+            const minute = 60000;
+            const hour = 60 * minute;
+            const now = Date.now();
+            const delta = Math.max(0, now - updatedAt);
+            let label;
+            if (delta < minute) {
+                label = 'Updated just now.';
+            } else if (delta < hour) {
+                const minutes = Math.round(delta / minute);
+                label = `Updated ${minutes} minute${minutes === 1 ? '' : 's'} ago.`;
+            } else if (delta < 24 * hour) {
+                const hours = Math.round(delta / hour);
+                label = `Updated ${hours} hour${hours === 1 ? '' : 's'} ago.`;
+            } else {
+                const days = Math.round(delta / (24 * hour));
+                label = `Updated ${days} day${days === 1 ? '' : 's'} ago.`;
+            }
+            el.textContent = label;
+        })();
+    </script>
+
+    <h2>Archives for Hot on Steam</h2>
+
+    <dl>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/1181550-carnival-hunt.html">Carnival Hunt</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/1623730-palworld.html">Palworld</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/1845250-rubinite.html">Rubinite</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/1913120-tears-of-metal.html">Tears of Metal</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/2195120-go-go-town.html">Go-Go Town!</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/2209900-moonlight-peaks.html">Moonlight Peaks</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/2244210-echoes-of-aincrad.html">Echoes of Aincrad</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/2377930-destiny-of-immortal.html">Destiny of Immortal</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/2424420-avatar-legends-the-fighting-game.html">Avatar Legends: The Fighting Game</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/2569760-the-mound-omen-of-cthulhu.html">The Mound: Omen of Cthulhu</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/2749950-esports-manager-2026.html">Esports Manager 2026</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/2936290-the-life-and-suffering-of-prince-jerian.html">The Life and Suffering of Prince Jerian</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/3116700-reap-and-rush.html">Reap and Rush</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/3440070-dinoblade.html">Dinoblade</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/3453910-happy-s-humble-burger-cult.html">Happy's Humble Burger Cult</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/3561220-pass-the-fear.html">Pass the Fear</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/3590290-dive-or-die-children-of-rain.html">DIVE or DIE - Children of Rain</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/3641000-the-incident-at-galley-house.html">The Incident at Galley House</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/3683770-boba-cafe-simulator.html">Boba Cafe Simulator</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/3712080-funnel-runners.html">Funnel Runners</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/3722330-shift-at-midnight.html">Shift At Midnight</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/3751950-assassin-s-creed-black-flag-resynced.html">Assassin's Creed Black Flag Resynced</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/3767850-spiritvale.html">SpiritVale</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/3808690-pathogenic.html">Pathogenic</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/387990-scrap-mechanic.html">Scrap Mechanic</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/4210580-ore-factory-squad.html">Ore Factory Squad ⛏️</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/4324480-dirty-business.html">Dirty Business</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/4380490-cat-mail-co.html">Cat Mail Co.</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/4449410-kyoto-xanadu-the-blooming-phantom.html">KYOTO XANADU -the Blooming Phantom-</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/4570720-dragonsword-awakening.html">DragonSword : Awakening</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/4643090-the-noexistencen-of-lilith.html">The NOexistenceN of Lilith</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./games/4800590-supermarket-chaos.html">Supermarket Chaos</a></dd>
+            <dt>Fri 24 July 2026</dt>
+            <dd><a href="./hot-on-steam.html">Hot on Steam</a></dd>
+    </dl>
+
+</body>
+
+</html>
