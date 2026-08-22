@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="Pelican" />
+    <title>Hot on Steam - Archives</title>
+    <meta name="title" content="Hot on Steam – The Most Popular New Steam Games" />
+    <meta name="description"
+        content="Browse popular new Steam releases ranked by recent reviews and active players, and see what's happening on Steam beyond the headlines." />
+    <link rel="stylesheet" href="./static/css/custom.css" />
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="./static/icons/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./static/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./static/icons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./static/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="./static/icons/site.webmanifest" />
+</head>
+
+<body id="index" class="home">
+    <header id="banner" class="body">
+        <div class="banner-inner">
+            <h1 style="display: flex; align-items: center; gap: 0.7rem;">
+                <img src="./static/icons/favicon.png" alt="Site icon"
+                    style="height: 0.78em; width: auto; vertical-align: middle; position: relative; top: -0.07em;" />
+                <a href="./">Hot on Steam</a>
+            </h1>
+            <div class="banner-updated" data-last-updated=""2026-08-22 21:22 UTC"">Last updated: "2026-08-22 21:22 UTC"</div>
+        </div>
+    </header>
+
+    <script defer>
+        (function () {
+            const el = document.querySelector('.banner-updated[data-last-updated]');
+            if (!el) {
+                return;
+            }
+            const timestamp = el.getAttribute('data-last-updated');
+            if (!timestamp) {
+                return;
+            }
+            const updatedAt = Date.parse(timestamp);
+            if (Number.isNaN(updatedAt)) {
+                return;
+            }
+            const minute = 60000;
+            const hour = 60 * minute;
+            const now = Date.now();
+            const delta = Math.max(0, now - updatedAt);
+            let label;
+            if (delta < minute) {
+                label = 'Updated just now.';
+            } else if (delta < hour) {
+                const minutes = Math.round(delta / minute);
+                label = `Updated ${minutes} minute${minutes === 1 ? '' : 's'} ago.`;
+            } else if (delta < 24 * hour) {
+                const hours = Math.round(delta / hour);
+                label = `Updated ${hours} hour${hours === 1 ? '' : 's'} ago.`;
+            } else {
+                const days = Math.round(delta / (24 * hour));
+                label = `Updated ${days} day${days === 1 ? '' : 's'} ago.`;
+            }
+            el.textContent = label;
+        })();
+    </script>
+
+    <h2>Archives for Hot on Steam</h2>
+
+    <dl>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/1067360-pax-autocratica.html">Pax Autocratica</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/1368140-corsair-cove.html">Corsair Cove</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/1478500-big-walk.html">Big Walk</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/1733690-mandate-order.html">Mandate Order</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/2001760-beast-of-reincarnation.html">Beast of Reincarnation</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/2059170-quasimorph.html">Quasimorph</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/2142790-fields-of-mistria.html">Fields of Mistria</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/2163330-yet-another-zombie-survivors.html">Yet Another Zombie Survivors</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/2285550-doloc-town.html">Doloc Town</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/2436940-sephiria.html">Sephiria</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/2523770-the-lord-of-the-rings-war-in-the-north-legacy-edition.html">The Lord of the Rings: War in the North™ - Legacy Edition</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/2584270-mortal-shell-ii.html">Mortal Shell II</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/2764460-sandustry.html">Sandustry</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/2806050-halo-campaign-evolved.html">Halo: Campaign Evolved</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/2825860-the-sinking-city-2.html">The Sinking City 2</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/292000-no-more-room-in-hell-2.html">No More Room in Hell 2</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/2950790-iron-nest-heavy-turret-simulator.html">IRON NEST: Heavy Turret Simulator</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/3065940-gallipoli.html">Gallipoli</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/3079210-hell-let-loose-vietnam.html">Hell Let Loose: Vietnam</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/3091140-lootbound.html">Lootbound</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/3167920-low-budget-repairs.html">Low-Budget Repairs</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/3282300-mistfall-hunter.html">Mistfall Hunter</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/3293260-waterpark-simulator.html">Waterpark Simulator</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/3614130-shelves-and-sorcery-tidy-up-the-enchanted-shop.html">Shelves and Sorcery: Tidy Up the Enchanted Shop</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/3636770-servant-of-the-lake.html">Servant of the Lake</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/3749320-hua-manlou.html">Hua Manlou</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/3812600-restory-chill-electronics-repairs.html">ReStory: Chill Electronics Repairs</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/387990-scrap-mechanic.html">Scrap Mechanic</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/3904850-approximately-up.html">Approximately Up</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/3934250-village-in-the-shade.html">Village in the Shade</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/3934270-how-many-dudes.html">How Many Dudes?</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/4001890-how-to-fish.html">How to Fish</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/4012810-steins-gate-re-boot.html">STEINS;GATE RE:BOOT</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/4026250-project-p-i-t-t.html">Project P.I.T.T.</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/4108000-machine-party.html">Machine Party</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/4113940-sovereign-tower.html">Sovereign Tower</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/4132330-pizza-house-simulator.html">Pizza House Simulator🍕</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/4164790-survival-log.html">Survival Log</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/4243990-path-of-idle-old-gods-rising.html">Path of Idle: Old Gods Rising</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/4292950-shao-song-i.html">Shao Song I</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/4294490-kotamon-my-sis-found-a-super-rare-card-in-her-cereal-box-so.html">KOTAMON: My Sis Found A Super-Rare Card In Her Cereal Box, So I Became A Garbage Man To Find The Entire Collection And Earn $1,000,000</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/4315040-hearth-and-hamlet.html">Hearth and Hamlet</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/4364910-ruins-of-dawn.html">Ruins of Dawn</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/4369130-chop-chop-inc.html">Chop Chop Inc.</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/4421010-bills-must-be-paid.html">Bills Must Be Paid</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/4450620-grain-rot.html">GRAIN ROT</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./games/4992070-sort-them-ducks.html">Sort Them Ducks</a></dd>
+            <dt>Sat 22 August 2026</dt>
+            <dd><a href="./hot-on-steam.html">Hot on Steam</a></dd>
+    </dl>
+
+</body>
+
+</html>
