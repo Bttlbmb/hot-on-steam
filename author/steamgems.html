@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="Pelican" />
+    <title>Hot on Steam - Articles by "SteamGems"</title>
+    <meta name="title" content="Hot on Steam – The Most Popular New Steam Games" />
+    <meta name="description"
+        content="Browse popular new Steam releases ranked by recent reviews and active players, and see what's happening on Steam beyond the headlines." />
+    <link rel="stylesheet" href="../static/css/custom.css" />
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="../static/icons/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/icons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="../static/icons/site.webmanifest" />
+</head>
+
+<body id="index" class="home">
+    <header id="banner" class="body">
+        <div class="banner-inner">
+            <h1 style="display: flex; align-items: center; gap: 0.7rem;">
+                <img src="../static/icons/favicon.png" alt="Site icon"
+                    style="height: 0.78em; width: auto; vertical-align: middle; position: relative; top: -0.07em;" />
+                <a href="../">Hot on Steam</a>
+            </h1>
+            <div class="banner-updated" data-last-updated=""2026-09-05 15:19 UTC"">Last updated: "2026-09-05 15:19 UTC"</div>
+        </div>
+    </header>
+
+    <script defer>
+        (function () {
+            const el = document.querySelector('.banner-updated[data-last-updated]');
+            if (!el) {
+                return;
+            }
+            const timestamp = el.getAttribute('data-last-updated');
+            if (!timestamp) {
+                return;
+            }
+            const updatedAt = Date.parse(timestamp);
+            if (Number.isNaN(updatedAt)) {
+                return;
+            }
+            const minute = 60000;
+            const hour = 60 * minute;
+            const now = Date.now();
+            const delta = Math.max(0, now - updatedAt);
+            let label;
+            if (delta < minute) {
+                label = 'Updated just now.';
+            } else if (delta < hour) {
+                const minutes = Math.round(delta / minute);
+                label = `Updated ${minutes} minute${minutes === 1 ? '' : 's'} ago.`;
+            } else if (delta < 24 * hour) {
+                const hours = Math.round(delta / hour);
+                label = `Updated ${hours} hour${hours === 1 ? '' : 's'} ago.`;
+            } else {
+                const days = Math.round(delta / (24 * hour));
+                label = `Updated ${days} day${days === 1 ? '' : 's'} ago.`;
+            }
+            el.textContent = label;
+        })();
+    </script>
+
+<aside id="featured" class="body">
+    <article>
+        <div class="entry-content">
+            <p>Discover what's heating up on Steam right now. This page tracks games released in the past month based on recent player activity and reviews.</p>
+<div class="games-table">
+<table>
+    <colgroup>
+        <col style="width: auto;">
+        <col style="width: 1%; white-space: nowrap;">
+        <col style="width: 1%; white-space: nowrap;">
+        <col style="width: 1%; white-space: nowrap;">
+    </colgroup>
+    <thead>
+        <tr>
+            <th>Game</th>
+            <th>Avg. Players</th>
+            <th>Pos. Reviews</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/2638890-onimusha-way-of-the-sword.html">Onimusha: Way of the Sword</a><span class="badge new">New</span></div>
+                <div class="game-meta">CAPCOM Co., Ltd. • Released -18 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">48,784</span>
+                <div class="trend-arrow stable"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span><span class="pixel empty"></span>
+                <span class="percentage-text">86%</span>
+            </div>
+            <div class="reviews-caption">5,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/2638890" target="_blank">Steam: $69.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/4356430-nba-2k27.html">NBA 2K27</a><span class="badge new">New</span></div>
+                <div class="game-meta">Visual Concepts • Released 3 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">21,743</span>
+                <div class="trend-arrow stable"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span>
+                <span class="percentage-text">51%</span>
+            </div>
+            <div class="reviews-caption">1,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/4356430" target="_blank">Steam: $69.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/2075800-star-wars-zero-company.html">STAR WARS Zero Company™</a></div>
+                <div class="game-meta">Bit Reactor • Released 10 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">24,246</span>
+                <div class="trend-arrow steep-down"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span><span class="pixel empty"></span>
+                <span class="percentage-text">80%</span>
+            </div>
+            <div class="reviews-caption">15,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/2075800" target="_blank">Steam: $49.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/1331550-big-ambitions.html">Big Ambitions</a></div>
+                <div class="game-meta">Hovgaard Games • Released 9 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">6,434</span>
+                <div class="trend-arrow steep-up"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span>
+                <span class="percentage-text">92%</span>
+            </div>
+            <div class="reviews-caption">14,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/1331550" target="_blank">Steam: $25.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/2798330-dungeon-settlers.html">Dungeon Settlers</a><span class="badge new">New</span><span class="badge early-access">Early Access</span></div>
+                <div class="game-meta">CanOpener • Released 2 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">2,709</span>
+                <div class="trend-arrow stable"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span><span class="pixel empty"></span>
+                <span class="percentage-text">85%</span>
+            </div>
+            <div class="reviews-caption">200+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/2798330" target="_blank">Steam: $21.24</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/2492660-metal-gear-solid-peace-walker-master-collection-version.html">METAL GEAR SOLID: Peace Walker - Master Collection Version</a></div>
+                <div class="game-meta">KONAMI • Released 10 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">2,723</span>
+                <div class="trend-arrow stable"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span>
+                <span class="percentage-text">75%</span>
+            </div>
+            <div class="reviews-caption">900+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/2492660" target="_blank">Steam: $19.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/5075020-little-lumi-model.html">Little LUMI Model</a><span class="badge new">New</span></div>
+                <div class="game-meta">Studio LUMI • Released 3 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">2,215</span>
+                <div class="trend-arrow stable"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span>
+                <span class="percentage-text">99%</span>
+            </div>
+            <div class="reviews-caption">200+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/5075020" target="_blank">Steam: $3.19</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/4001890-how-to-fish.html">How to Fish</a></div>
+                <div class="game-meta">Dazed Games • Released 17 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">61,413</span>
+                <div class="trend-arrow steep-down"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span>
+                <span class="percentage-text">95%</span>
+            </div>
+            <div class="reviews-caption">52,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/4001890" target="_blank">Steam: $7.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/1250410-microsoft-flight-simulator-2020-40th-anniversary-edition.html">Microsoft Flight Simulator (2020) 40th Anniversary Edition</a></div>
+                <div class="game-meta">Asobo Studio • Released 12 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">2,971</span>
+                <div class="trend-arrow stable"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span>
+                <span class="percentage-text">79%</span>
+            </div>
+            <div class="reviews-caption">73,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/1250410" target="_blank">Steam: $59.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/3183760-speedrunners-2-king-of-speed.html">SpeedRunners 2: King of Speed</a><span class="badge new">New</span></div>
+                <div class="game-meta">Fair Play Labs • Released 3 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">1,744</span>
+                <div class="trend-arrow stable"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span>
+                <span class="percentage-text">59%</span>
+            </div>
+            <div class="reviews-caption">200+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/3183760" target="_blank">Steam: $8.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/2492670-metal-gear-solid-4-guns-of-the-patriots-master-collection-ve.html">METAL GEAR SOLID 4: Guns of the Patriots - Master Collection Version</a></div>
+                <div class="game-meta">KONAMI • Released 10 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">2,676</span>
+                <div class="trend-arrow steep-down"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span>
+                <span class="percentage-text">97%</span>
+            </div>
+            <div class="reviews-caption">2,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/2492670" target="_blank">Steam: $29.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/4423580-shadow-dungeon.html">Shadow Dungeon</a></div>
+                <div class="game-meta">OO Cat • Released 11 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">1,775</span>
+                <div class="trend-arrow steep-down"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span>
+                <span class="percentage-text">79%</span>
+            </div>
+            <div class="reviews-caption">1,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/4423580" target="_blank">Steam: $8.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/2713000-resonance-a-plague-tale-legacy.html">Resonance: A Plague Tale Legacy</a></div>
+                <div class="game-meta">Asobo Studio • Released 10 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">1,182</span>
+                <div class="trend-arrow steep-down"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span>
+                <span class="percentage-text">93%</span>
+            </div>
+            <div class="reviews-caption">3,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/2713000" target="_blank">Steam: $49.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/3448650-aliens-fireteam-elite-2.html">Aliens: Fireteam Elite 2</a></div>
+                <div class="game-meta">Cold Iron Studios • Released 12 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">2,148</span>
+                <div class="trend-arrow steep-down"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span>
+                <span class="percentage-text">63%</span>
+            </div>
+            <div class="reviews-caption">3,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/3448650" target="_blank">Steam: $49.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/2584270-mortal-shell-ii.html">Mortal Shell II</a></div>
+                <div class="game-meta">Cold Symmetry • Released 17 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">9,684</span>
+                <div class="trend-arrow steep-down"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span>
+                <span class="percentage-text">77%</span>
+            </div>
+            <div class="reviews-caption">17,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/2584270" target="_blank">Steam: $49.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/2163330-yet-another-zombie-survivors.html">Yet Another Zombie Survivors</a></div>
+                <div class="game-meta">Awesome Games Studio • Released 17 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">3,219</span>
+                <div class="trend-arrow steep-down"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span>
+                <span class="percentage-text">91%</span>
+            </div>
+            <div class="reviews-caption">15,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/2163330" target="_blank">Steam: $14.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/4294490-kotamon-my-sis-found-a-super-rare-card-in-her-cereal-box-so.html">KOTAMON: My Sis Found A Super-Rare Card In Her Cereal Box, So I Became A Garbage Man To Find The Entire Collection And Earn $1,000,000</a></div>
+                <div class="game-meta">KotaMota Games • Released 17 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">1,075</span>
+                <div class="trend-arrow steep-down"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span><span class="pixel empty"></span>
+                <span class="percentage-text">81%</span>
+            </div>
+            <div class="reviews-caption">2,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/4294490" target="_blank">Steam: $6.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/4364910-ruins-of-dawn.html">Ruins of Dawn</a></div>
+                <div class="game-meta">刷宝爱好者 • Released 23 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">2,986</span>
+                <div class="trend-arrow stable"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span>
+                <span class="percentage-text">74%</span>
+            </div>
+            <div class="reviews-caption">900+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/4364910" target="_blank">Steam: $7.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/3079210-hell-let-loose-vietnam.html">Hell Let Loose: Vietnam</a></div>
+                <div class="game-meta">Expression Games • Released 24 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">4,286</span>
+                <div class="trend-arrow steep-down"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span>
+                <span class="percentage-text">61%</span>
+            </div>
+            <div class="reviews-caption">11,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/3079210" target="_blank">Steam: $39.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/4164790-survival-log.html">Survival Log</a></div>
+                <div class="game-meta">Midnight Workshop • Released 25 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">4,709</span>
+                <div class="trend-arrow steep-down"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span><span class="pixel empty"></span>
+                <span class="percentage-text">83%</span>
+            </div>
+            <div class="reviews-caption">2,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/4164790" target="_blank">Steam: $10.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/2764460-sandustry.html">Sandustry</a><span class="badge early-access">Early Access</span></div>
+                <div class="game-meta">Lantto Games • Released 24 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">3,314</span>
+                <div class="trend-arrow steep-down"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span>
+                <span class="percentage-text">97%</span>
+            </div>
+            <div class="reviews-caption">5,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/2764460" target="_blank">Steam: $14.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/292000-no-more-room-in-hell-2.html">No More Room in Hell 2</a></div>
+                <div class="game-meta">Torn Banner Studios • Released 26 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">5,100</span>
+                <div class="trend-arrow steep-down"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span>
+                <span class="percentage-text">56%</span>
+            </div>
+            <div class="reviews-caption">27,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/292000" target="_blank">Steam: $29.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/4243990-path-of-idle-old-gods-rising.html">Path of Idle: Old Gods Rising</a></div>
+                <div class="game-meta">Small Mill, Small Mill • Released 25 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">2,462</span>
+                <div class="trend-arrow steep-down"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span><span class="pixel empty"></span><span class="pixel empty"></span>
+                <span class="percentage-text">77%</span>
+            </div>
+            <div class="reviews-caption">1,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/4243990" target="_blank">Steam: $9.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/3812600-restory-chill-electronics-repairs.html">ReStory: Chill Electronics Repairs</a></div>
+                <div class="game-meta">Mandragora • Released 31 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">2,089</span>
+                <div class="trend-arrow steep-down"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span>
+                <span class="percentage-text">95%</span>
+            </div>
+            <div class="reviews-caption">10,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/3812600" target="_blank">Steam: $19.99</a></div></div></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="game-cell">
+                <div class="game-title-row"><a class="game-detail-link" href="games/2950790-iron-nest-heavy-turret-simulator.html">IRON NEST: Heavy Turret Simulator</a></div>
+                <div class="game-meta">Nick Nieuwoudt, Dominik Latos • Released 31 days ago</div>
+            </div>
+        </td>
+        <td>
+            <div class="players-cell">
+                <span class="players-num">1,146</span>
+                <div class="trend-arrow steep-down"></div>
+            </div>
+        </td>
+        <td><div class="reviews-block">
+            <div class="pixel-progress">
+                <span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel filled"></span><span class="pixel empty"></span>
+                <span class="percentage-text">98%</span>
+            </div>
+            <div class="reviews-caption">13,000+ reviews</div>
+        </div></td>
+        <td><div class="price-block"><div class="price-row"><a href="https://store.steampowered.com/app/2950790" target="_blank">Steam: $19.99</a></div></div></td>
+    </tr>
+    </tbody>
+</table>
+</div>
+
+<div class="footer-disclaimer">
+    <div class="footer-block footer-block-about">
+        <strong>Hot on Steam</strong> highlights new Steam releases with rising player counts and review momentum. Independent project, not affiliated with Valve Corporation.
+    </div>
+    <div class="footer-block footer-block-data">
+        Data from <a href="https://steamcommunity.com/dev" target="_blank" rel="noopener">Steam Web API</a> and <a href="https://docs.isthereanydeal.com/" target="_blank" rel="noopener">IsThereAnyDeal API</a>. Built with <a href="https://getpelican.com/" target="_blank" rel="noopener">Pelican</a>.
+    </div>
+    <div class="footer-block footer-block-contact">
+        Get in touch via <a href="mailto:hotonsteam@fastmail.com">hotonsteam@fastmail.com</a>.
+    </div>
+</div>
+        </div>
+    </article>
+</aside>
+
+</body>
+
+</html>

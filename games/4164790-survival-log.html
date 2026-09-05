@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="Pelican" />
+    <title>Survival Log - Hot on Steam</title>
+    <meta name="title" content="Hot on Steam – The Most Popular New Steam Games" />
+    <meta name="description"
+        content="Browse popular new Steam releases ranked by recent reviews and active players, and see what's happening on Steam beyond the headlines." />
+    <link rel="stylesheet" href="../static/css/custom.css" />
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="../static/icons/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/icons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="../static/icons/site.webmanifest" />
+</head>
+
+<body id="index" class="home">
+    <header id="banner" class="body">
+        <div class="banner-inner">
+            <h1 style="display: flex; align-items: center; gap: 0.7rem;">
+                <img src="../static/icons/favicon.png" alt="Site icon"
+                    style="height: 0.78em; width: auto; vertical-align: middle; position: relative; top: -0.07em;" />
+                <a href="../">Hot on Steam</a>
+            </h1>
+            <div class="banner-updated" data-last-updated=""2026-09-05 15:19 UTC"">Last updated: "2026-09-05 15:19 UTC"</div>
+        </div>
+    </header>
+
+    <script defer>
+        (function () {
+            const el = document.querySelector('.banner-updated[data-last-updated]');
+            if (!el) {
+                return;
+            }
+            const timestamp = el.getAttribute('data-last-updated');
+            if (!timestamp) {
+                return;
+            }
+            const updatedAt = Date.parse(timestamp);
+            if (Number.isNaN(updatedAt)) {
+                return;
+            }
+            const minute = 60000;
+            const hour = 60 * minute;
+            const now = Date.now();
+            const delta = Math.max(0, now - updatedAt);
+            let label;
+            if (delta < minute) {
+                label = 'Updated just now.';
+            } else if (delta < hour) {
+                const minutes = Math.round(delta / minute);
+                label = `Updated ${minutes} minute${minutes === 1 ? '' : 's'} ago.`;
+            } else if (delta < 24 * hour) {
+                const hours = Math.round(delta / hour);
+                label = `Updated ${hours} hour${hours === 1 ? '' : 's'} ago.`;
+            } else {
+                const days = Math.round(delta / (24 * hour));
+                label = `Updated ${days} day${days === 1 ? '' : 's'} ago.`;
+            }
+            el.textContent = label;
+        })();
+    </script>
+
+<section id="content" class="body">
+    <article class="game-detail">
+        <div class="detail-back-link"><a href="../">&#8592; Back to dashboard</a></div>
+
+        <div class="detail-hero">
+            <div class="detail-hero-main">
+                <h1>Survival Log</h1>
+                <div class="detail-meta">
+                    Midnight Workshop
+                    <span class="publisher">&bull; Lilith Games</span>
+                    <span class="release">&bull; Released 2026-08-12</span>
+                </div>
+            </div>
+            <div class="detail-hero-actions">
+                <a class="detail-cta" href="https://store.steampowered.com/app/4164790" target="_blank" rel="noopener">View on Steam</a>
+                <a class="detail-cta secondary" href="https://isthereanydeal.com/steam/app/4164790/" target="_blank"
+                    rel="noopener">Compare prices</a>
+            </div>
+        </div>
+
+        <div class="detail-card detail-description">
+            <h2>Official description</h2>
+            <div class="detail-description-body">
+                <p class="game-detail-summary">The apocalypse is here, and you saw it coming. Survival Log is a zombie-apocalypse hoarding survival sim. Hoard supplies, reinforce your home, and optimize every run before zombies flood the city. Every failure becomes experience. You must adapt and survive this time.</p>
+            </div>
+        </div>
+
+        <div class="detail-stats-columns">
+            <!-- Column 1: Player Activity -->
+            <div class="detail-column-card">
+                <h3 class="column-title">Player Activity</h3>
+
+                <div class="column-content">
+                    <div class="column-stat-group">
+                        <div class="stat-value-large">4,709</div>
+                        <div class="stat-label">Avg. Players</div>
+                    </div>
+
+
+                    <div class="column-stat-group">
+                        <div
+                            class="stat-value-medium negative">
+-37%
+                        </div>
+                        <div class="stat-label">Trend (7d)</div>
+                    </div>
+                </div>
+
+                <div class="column-chart-wrapper">
+                    <div class="chart-label">30-Day Trend</div>
+                    <div class="chart-container">
+                        <svg viewBox="0 0 300 60" preserveAspectRatio="none" class="player-chart">
+                            <path d="M 110.00 43.72 C 113.00 43.72, 117.00 37.96, 120.00 37.96 C 123.00 37.96, 127.00 32.86, 130.00 32.86 C 133.00 32.86, 137.00 22.24, 140.00 22.24 C 143.00 22.24, 147.00 12.77, 150.00 12.77 C 153.00 12.77, 157.00 21.44, 160.00 21.44 C 163.00 21.44, 167.00 15.85, 170.00 15.85 C 173.00 15.85, 177.00 8.94, 180.00 8.94 C 183.00 8.94, 187.00 18.67, 190.00 18.67 C 193.00 18.67, 197.00 9.85, 200.00 9.85 C 203.00 9.85, 207.00 0.00, 210.00 0.00 C 213.00 0.00, 217.00 13.94, 220.00 13.94 C 223.00 13.94, 227.00 3.07, 230.00 3.07 C 233.00 3.07, 237.00 10.42, 240.00 10.42 C 243.00 10.42, 247.00 3.62, 250.00 3.62 C 253.00 3.62, 257.00 13.41, 260.00 13.41 C 263.00 13.41, 267.00 9.40, 270.00 9.40 C 273.00 9.40, 277.00 30.73, 280.00 30.73 C 283.00 30.73, 287.00 23.93, 290.00 23.93" fill="none" stroke="#68d391" stroke-width="2"
+                                vector-effect="non-scaling-stroke" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 2: Review Stats -->
+            <div class="detail-column-card">
+                <h3 class="column-title">Reviews</h3>
+
+
+                <div class="column-content">
+                    <div class="column-stat-group">
+                        <div class="stat-value-large text-purple">83%</div>
+                        <div class="stat-label">Positive</div>
+                    </div>
+
+                    <div class="column-stat-group">
+                        <div class="stat-value-medium">
+                            2,426
+                        </div>
+                        <div class="stat-label">Total Reviews</div>
+                    </div>
+                </div>
+
+                <div class="column-chart-wrapper">
+                    <div class="chart-label">30-Day Trend</div>
+                    <div class="chart-container">
+                        <svg viewBox="0 0 300 60" preserveAspectRatio="none" class="player-chart">
+                            <path d="M 120.00 20.40 C 123.00 20.40, 127.00 20.40, 130.00 20.40 C 133.00 20.40, 137.00 16.80, 140.00 16.80 C 143.00 16.80, 147.00 15.60, 150.00 15.60 C 153.00 15.60, 157.00 14.40, 160.00 14.40 C 163.00 14.40, 167.00 13.20, 170.00 13.20 C 173.00 13.20, 177.00 12.60, 180.00 12.60 C 183.00 12.60, 187.00 12.60, 190.00 12.60 C 193.00 12.60, 197.00 11.40, 200.00 11.40 C 203.00 11.40, 207.00 10.80, 210.00 10.80 C 213.00 10.80, 217.00 10.80, 220.00 10.80 C 223.00 10.80, 227.00 10.20, 230.00 10.20 C 233.00 10.20, 237.00 10.20, 240.00 10.20 C 243.00 10.20, 247.00 10.20, 250.00 10.20 C 253.00 10.20, 257.00 10.20, 260.00 10.20 C 263.00 10.20, 267.00 10.20, 270.00 10.20 C 273.00 10.20, 277.00 10.20, 280.00 10.20 C 283.00 10.20, 287.00 10.20, 290.00 10.20" fill="none" stroke="#9f7aea" stroke-width="2"
+                                vector-effect="non-scaling-stroke" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 3: Price Info -->
+            <div class="detail-column-card">
+                <h3 class="column-title">Pricing</h3>
+
+                <div class="column-content">
+
+                    <div class="column-stat-group">
+                        <div class="stat-value-large text-blue">$10.99</div>
+                        <div class="stat-label">Steam Price</div>
+                    </div>
+
+                    <div class="column-stat-group">
+                        <div class="stat-value-medium text-green">$0.00</div>
+                        <div class="stat-label">Lowest ("")</div>
+                    </div>
+                </div>
+
+                <div class="column-chart-wrapper">
+                    <div class="chart-label">90-Day Price History</div>
+
+                    <div class="chart-container price-chart-container">
+                        <svg viewBox="0 0 300 60" preserveAspectRatio="none" class="price-chart">
+                            <path d="M 236.67 49.49 C 237.67 49.49, 239.00 49.49, 240.00 49.49 C 241.00 49.49, 242.33 49.49, 243.33 49.49 C 244.33 49.49, 245.67 49.49, 246.67 49.49 C 247.67 49.49, 249.00 49.49, 250.00 49.49 C 251.00 49.49, 252.33 49.49, 253.33 49.49 C 254.33 49.49, 255.67 49.49, 256.67 49.49 C 257.67 49.49, 259.00 49.49, 260.00 49.49 C 261.00 49.49, 262.33 49.49, 263.33 49.49 C 264.33 49.49, 265.67 49.49, 266.67 49.49 C 267.67 49.49, 269.00 49.49, 270.00 49.49 C 271.00 49.49, 272.33 49.49, 273.33 49.49 C 274.33 49.49, 275.67 49.49, 276.67 49.49 C 277.67 49.49, 279.00 49.49, 280.00 49.49 C 281.00 49.49, 282.33 49.49, 283.33 49.49 C 284.33 49.49, 285.67 12.36, 286.67 12.36 C 287.67 12.36, 289.00 12.36, 290.00 12.36 C 291.00 12.36, 292.33 12.36, 293.33 12.36 C 294.33 12.36, 295.67 12.36, 296.67 12.36" fill="none" stroke="#4a9eff" stroke-width="2"
+                                vector-effect="non-scaling-stroke" class="price-line-steam" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</section>
+
+</body>
+
+</html>
